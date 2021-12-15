@@ -18,11 +18,9 @@ void FileLogger::write(const std::string &log) {
 }
 
 Logger::~Logger() {
-
 }
 
 ConsoleLogger::~ConsoleLogger() {
-
 }
 
 FileLogger::~FileLogger() {

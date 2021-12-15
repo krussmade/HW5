@@ -17,7 +17,7 @@ bool HoneyPot::empty() {
 
 bool HoneyPot::full() {
 //    lock l(mutex_);
-    return value_ == max_value_;
+    return value_ >= max_value_;
 }
 
 void HoneyPot::push() {

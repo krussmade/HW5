@@ -63,10 +63,10 @@ public:
             }
             honey_pot->push();
             logger->write("Bzzz.. ; value: " +
-                           std::to_string(honey_pot->value()) +
-                           "; id: " +
-                           std::to_string(id) +
-                           "\n");
+                          std::to_string(honey_pot->value()) +
+                          "; id: " +
+                          std::to_string(id) +
+                          "\n");
         }, honey_pot_, logger_, id_);
     }
 
@@ -135,6 +135,7 @@ public:
             bees_.work();
             bees_.join();
             bear_.work();
+            bear_.join();
         }
     }
 };
