@@ -27,9 +27,9 @@ public:
                 return;
             }
             honey_pot->clear();
-            logger->write("I am a bear and I love honey; value: " +
+            logger->write("I am a bear and I love honey; Honey pot value: " +
                           std::to_string(honey_pot->value()) +
-                          "; id: " +
+                          "; Bear id: " +
                           std::to_string(id) +
                           "\n");
         }, honey_pot_, logger_, id_);
@@ -62,9 +62,9 @@ public:
                 return;
             }
             honey_pot->push();
-            logger->write("Bzzz.. ; value: " +
+            logger->write("Bzzz.. ; Honey pot value: " +
                           std::to_string(honey_pot->value()) +
-                          "; id: " +
+                          "; Bee id: " +
                           std::to_string(id) +
                           "\n");
         }, honey_pot_, logger_, id_);
