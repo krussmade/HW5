@@ -3,7 +3,7 @@
 
 #include <thread>
 #include "Array.h"
-#include "HonyPot.h"
+#include "HoneyPot.h"
 #include "Logger.h"
 #include <string>
 

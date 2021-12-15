@@ -1,4 +1,4 @@
-#include "../headers/HonyPot.h"
+#include "../headers/HoneyPot.h"
 
 HoneyPot::HoneyPot(int max_value) {
     this->value_ = 0;
